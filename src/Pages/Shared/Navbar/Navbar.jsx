@@ -4,6 +4,7 @@ import playbtn from '../../../assets/play-btn.png'
 import navImg from '../../../assets/navImg.png'
 import navSearchImg from '../../../assets/nav-search-img.png'
 import { NavLink } from 'react-router';
+import Brands from './Brands/Brands';
 
 
 
@@ -71,6 +72,7 @@ const Navbar = () => {
                 </div>
               </div>
             </div>
+             <Brands></Brands>
         </div>
     );
 };
