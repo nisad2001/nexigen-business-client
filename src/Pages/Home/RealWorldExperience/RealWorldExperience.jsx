@@ -5,7 +5,7 @@ import rwimg3 from '../../../assets/rwimg3.png'
 
 const RealWorldExperience = () => {
     return (
-       <div className="bg-[#FEF5E4] py-21 px-10 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6">
+       <div className="bg-[#FEF5E4] py-21 px-46 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6">
             <div className='w-full'>
                 <img className="pb-6" src={rwimg1} alt="Wealth Management" />
                 <h1 className="font-bold text-[#0D083A] pb-4">Wealth Management</h1>

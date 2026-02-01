@@ -5,7 +5,7 @@ import aboutExpert from '../../../assets/aboutExpertImg.png'
 
 const AboutUs = () => {
     return (
-        <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 my-24 items-center '>
+        <div className='grid px-34 grid-cols-1 lg:grid-cols-2 gap-10 my-24 items-center '>
             <div>
                  <img src={aboutImg} alt="" />
             </div>
