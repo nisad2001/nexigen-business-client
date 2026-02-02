@@ -13,7 +13,7 @@ const Footer = () => {
     <footer className="bg-gradient-to-r from-[#0b0b2e] to-[#140f3d] text-gray-300 px-6 md:px-16 pt-16">
       
       {/* Newsletter */}
-      <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 border-b border-gray-700 pb-10">
+      <div className="flex max-w-[1119px]   mx-auto flex-col md:flex-row justify-between items-start md:items-center gap-6 border-b border-gray-700 pb-10">
         <div>
           <h3 className="text-white text-2xl font-semibold mb-3">
             Subscribe to our Newsletter
@@ -47,7 +47,7 @@ const Footer = () => {
       </div>
 
       {/* Main Footer */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 py-14">
+      <div className="max-w-[1168px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 py-14">
         
         {/* Brand */}
         <div>
@@ -98,19 +98,19 @@ const Footer = () => {
           <h4 className="text-white font-semibold mb-4">Recent Projects</h4>
           <div className="grid grid-cols-2 gap-3">
             <img
-              src="/public/assets/images/footerImg1.png"
+              src="/assets/images/footerimg2.png"
               className="rounded-lg"
             />
             <img
-              src="/public/assets/images/footerImg2.png"
+              src="/assets/images/footerimg2.png"
               className="rounded-lg"
             />
             <img
-              src="/public/assets/images/footerImg3.png"
+              src="/assets/images/footerimg3.png"
               className="rounded-lg"
             />
             <img
-              src="/public/assets/images/footerImg4.png"
+              src="/assets/images/footerimg4.png"
               className="rounded-lg"
             />
            
@@ -119,7 +119,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom */}
-      <div className="border-t border-gray-700 py-6 flex flex-col md:flex-row justify-between text-sm text-gray-400">
+      <div className="border-t max-w-[1168px] mx-auto border-gray-700 py-6 flex flex-col md:flex-row justify-between text-sm text-gray-400">
         <p>© Copyright 2023 by nexigen.com</p>
         <div className="flex gap-4 mt-3 md:mt-0">
           <a className="hover:text-white">Privacy & Terms</a>

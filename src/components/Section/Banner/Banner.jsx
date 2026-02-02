@@ -2,12 +2,12 @@ import React from 'react';
 
 const Banner = () => {
     return (
-         <div className="hero pt-16  max-w-292 w-full mx-auto px-4 lg:px-0">
-    <div className="hero-content flex-col-reverse lg:flex-row-reverse gap-60">
+    <div className="hero pt-16  max-w-[1169px] w-full mx-auto  lg:px-0">
+    <div className="hero-content flex-col-reverse lg:flex-row-reverse gap-[104px]">
       
       <img
         src="/public/assets/images/hero-right-img.png"
-         className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg rounded-lg shadow-2xl"
+         className="w-[472px] h-[472px] max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg rounded-lg shadow-2xl"
       />
 
       <div>
@@ -19,7 +19,7 @@ const Banner = () => {
           Solutions for <br /> every organization
         </h1>
 
-        <p className="pt-4 md:py-6 font-normal text-sm md:text-base text-[#FFFFFF] max-w-xl">
+        <p className="pt-4 md:py-6 w-[564px] font-normal text-sm md:text-base text-[#FFFFFF] max-w-xl">
           If your company is facing financial challenges, struggling with operations,
           or looking to expand, we can help identify the root cause of the problem and
           develop a strategic plan to address it.

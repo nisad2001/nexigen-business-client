@@ -39,7 +39,7 @@ const Navbar = () => {
 
               <ul
                 tabIndex="-1"
-                className="menu menu-sm dropdown-content text-[#A6A6A8] rounded-box z-1 mt-3 w-52 p-2 shadow bg-[#100D2C]">
+                className="menu menu-sm dropdown-content text-[#A6A6A8] rounded-box z-1 mt-3 w-52 p-2 shadow ">
                 {links}
               </ul>
             </div>
@@ -47,7 +47,7 @@ const Navbar = () => {
             
             <div className="flex items-center">
             
-              <img className="mr-2 w-[26px] h-[26px]" src="/public/assets/images/navImg.png" alt="" />
+              <img className="mr-2 w-[26px] h-[26px]" src="assets/images/navimg.png" alt="" />
               <a className="text-[#EFECFF] text- lg:text-xl mr-16">Nexigen</a>
             </div>
             <div className="navbar-center text-[#A6A6A8] hidden lg:flex">
@@ -60,7 +60,7 @@ const Navbar = () => {
           
 
           <div className="navbar-end hidden md:flex">
-            <img className="w-[24px] h-[24px] mr-4" src="/public/assets/images/nav-search-img.png" alt="" />
+            <img className="w-[24px] h-[24px] mr-4" src="/assets/images/nav-search-img.png" alt="" />
             <a className="btn py-5 px-7 w-[203px] h-[56px]  bg-[#D37302] text-[#FFFFFF]">
               Make Appointment
             </a>

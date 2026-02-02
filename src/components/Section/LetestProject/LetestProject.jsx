@@ -11,9 +11,9 @@ const LetestProject = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-6 sm:gap-8 mt-8">
-                <img src="/public/assets/images/pcard1.png" alt="Project 1" className="w-full sm:w-1/3 rounded-lg shadow-md" />
-                <img src="/public/assets/images/pcard2.png" alt="Project 2" className="w-full sm:w-1/3 rounded-lg shadow-md" />
-                <img src="/public/assets/images/pcard3.png" alt="Project 3" className="w-full sm:w-1/3 rounded-lg shadow-md" />
+                <img src="/assets/images/pcard1.png" alt="Project 1" className="w-full sm:w-1/3 rounded-lg shadow-md" />
+                <img src="/assets/images/pcard2.png" alt="Project 2" className="w-full sm:w-1/3 rounded-lg shadow-md" />
+                <img src="/assets/images/pcard3.png" alt="Project 3" className="w-full sm:w-1/3 rounded-lg shadow-md" />
                
             </div>
         </div>
