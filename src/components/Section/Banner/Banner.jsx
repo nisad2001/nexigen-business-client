@@ -6,7 +6,7 @@ const Banner = () => {
     <div className="hero-content flex-col-reverse lg:flex-row-reverse gap-[104px]">
       
       <img
-        src="/assets/images/hero-right-img.png"
+        src="/assets/images/hero.png"
          className="w-[472px] h-[472px] max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg rounded-lg shadow-2xl"
       />
 
