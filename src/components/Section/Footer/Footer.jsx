@@ -7,10 +7,6 @@ import {
   FaMapMarkerAlt,
 } from "react-icons/fa";
 
-import footerImg1 from '../../../assets/footerImg1.png'
-import footerImg2 from '../../../assets/footerImg2.png'
-import footerImg3 from '../../../assets/footerImg3.png'
-import footerImg4 from '../../../assets/footerImg4.png'
 
 const Footer = () => {
   return (
@@ -102,21 +98,22 @@ const Footer = () => {
           <h4 className="text-white font-semibold mb-4">Recent Projects</h4>
           <div className="grid grid-cols-2 gap-3">
             <img
-              src={footerImg1}
+              src="/public/assets/images/footerImg1.png"
               className="rounded-lg"
             />
             <img
-              src={footerImg2}
+              src="/public/assets/images/footerImg2.png"
               className="rounded-lg"
             />
             <img
-              src={footerImg3}
+              src="/public/assets/images/footerImg3.png"
               className="rounded-lg"
             />
             <img
-              src={footerImg4}
+              src="/public/assets/images/footerImg4.png"
               className="rounded-lg"
             />
+           
           </div>
         </div>
       </div>

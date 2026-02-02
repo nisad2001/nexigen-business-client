@@ -1,18 +1,22 @@
 import React from 'react';
 import 'swiper/css';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import amazon from '../../../../assets/amazon.png'
-import bitcoin from '../../../../assets/bitcoin.png'
-import hub from '../../../../assets/hub.png'
-import stripe from '../../../../assets/stripe.png'
-import slack from '../../../../assets/slack.png'
 import { Autoplay } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
 
-const brandsLogos = [amazon, bitcoin, hub,stripe, slack ]
+
+const brandsLogos = [
+  '/assets/images/amazon.png',
+  '/assets/images/bitcoin.png',
+  '/assets/images/hub.png',
+  '/assets/images/stripe.png',
+  '/assets/images/slack.png',
+];
+
 
 const Brands = () => {
     return (
-       <Swiper
+      <div className='h-[140px] py-[52px]'>
+          <Swiper
           loop ={true}
            slidesPerView={2}
             centeredSlides={true}
@@ -30,6 +34,7 @@ const Brands = () => {
             
            
        </Swiper>
+       </div>
     );
 };
 
