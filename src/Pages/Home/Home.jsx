@@ -1,15 +1,13 @@
 import React from 'react';
-import Footer from '../../components/Section/Footer/Footer';
-import Header from '../../components/Section/Header/Header';
-import Navbar from '../../components/Section/Navbar/Navbar';
-import Banner from '../../components/Section/Banner/Banner';
-import Brands from '../../components/Section/Navbar/Brands/Brands';
+import RealWorldExperience from '../../components/Section/RealWorldExperience/RealWorldExperience';
+import AboutUs from '../../components/Section/AboutUs/AboutUs';
 
 
 const Home = () => {
     return (
         <div>
-            
+            <RealWorldExperience></RealWorldExperience>
+            <AboutUs></AboutUs>
         </div>
     );
 };

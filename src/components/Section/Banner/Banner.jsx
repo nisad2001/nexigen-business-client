@@ -15,8 +15,8 @@ const Banner = () => {
           Welcome to NexiGen
         </p>
 
-        <h1 className="font-semibold md:text-4xl  text-[#EFECFF]  mb-4 leading-tight">
-          Solutions for <br /> every organization
+        <h1 className="font-semibold w-[579px] lg:text-[64px]  md:text-4xl  text-[#EFECFF]  mb-4 leading-tight">
+          Solutions for  every organization
         </h1>
 
         <p className="pt-4 md:py-6 w-[564px] font-normal text-sm md:text-base text-[#FFFFFF] max-w-xl">
