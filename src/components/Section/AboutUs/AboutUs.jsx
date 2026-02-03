@@ -14,10 +14,10 @@ const AboutUs = () => {
                     <span><img src="/assets/images/abouttickmark.png" alt="" className="w-5 h-5" /></span> Performing market research
                  </h1>
                  <h1 className='flex gap-2 text-[#0D083A] mb-8 items-center'>
-                    <span><img src="/assets/images/abouttickmark.png" alt="" className="w-5 h-5" /></span> Providing information to a client
+                    <span><img src="/public/assets/images/abouttickmark.png" alt="" className="w-5 h-5" /></span> Providing information to a client
                  </h1>
                  <h1 className='flex gap-2 text-[#0D083A] mb-6 items-center'>
-                    <span><img src="/assets/images/abouttickmark.png" alt="" className="w-5 h-5" /></span> Strategic planning
+                    <span><img src="/public/assets/images/abouttickmark.png" alt="" className="w-5 h-5" /></span> Strategic planning
                  </h1>
                  <div className='flex items-center gap-4 mt-8'>
                     <img src="/assets/images/aboutexpertimg.png" className='w-30 h-[54px] object-contain' alt="" />
