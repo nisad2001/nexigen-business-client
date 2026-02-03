@@ -21,7 +21,7 @@ const OurServices = () => {
           {/* image */}
           <figure className="w-full h-[270px]">
             <img
-              src="/public/assets/images/busimg1.png"
+              src="/assets/images/busimg1.png"
               alt="service"
               className="w-full h-full object-cover"
             />
@@ -48,7 +48,7 @@ const OurServices = () => {
         <div className="card max-w-[370px] max-h-[401px] bg-white relative pb-35 mx-auto">
           <figure className="w-full h-[270px]">
             <img
-              src="/public/assets/images/busimg1.png"
+              src="/assets/images/busimg1.png"
               alt="service"
               className="w-full h-full object-cover"
             />
@@ -74,7 +74,7 @@ const OurServices = () => {
         <div className="card max-w-[370px] max-h-[401px] bg-white relative pb-35 mx-auto">
           <figure className="w-full h-[270px]">
             <img
-              src="/public/assets/images/busimg1.png"
+              src="/assets/images/busimg1.png"
               alt="service"
               className="w-full h-full object-cover"
             />
