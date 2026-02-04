@@ -6,6 +6,8 @@ import HowWeWork from '../../components/Section/HowWeWork/HowWeWork';
 import OurServices from '../../components/Section/OurServices/OurServices';
 import Faq from '../../components/Section/Faq/Faq';
 import CustomerFeedback from '../../components/Section/CustomerFeedback/CustomerFeedback';
+import Consultent from '../../components/Section/Consultent/Consultent';
+import Blog from '../../components/Section/Blog/Blog';
 
 
 const Home = () => {
@@ -18,6 +20,8 @@ const Home = () => {
             <OurServices></OurServices>
             <Faq></Faq>
             <CustomerFeedback></CustomerFeedback>
+            <Consultent></Consultent>
+            <Blog></Blog>
         </div>
     );
 };
