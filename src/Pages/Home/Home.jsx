@@ -4,6 +4,8 @@ import AboutUs from '../../components/Section/AboutUs/AboutUs';
 import LetestProject from '../../components/Section/LetestProject/LetestProject';
 import HowWeWork from '../../components/Section/HowWeWork/HowWeWork';
 import OurServices from '../../components/Section/OurServices/OurServices';
+import Faq from '../../components/Section/Faq/Faq';
+import CustomerFeedback from '../../components/Section/CustomerFeedback/CustomerFeedback';
 
 
 const Home = () => {
@@ -14,6 +16,8 @@ const Home = () => {
             <LetestProject></LetestProject>
             <HowWeWork></HowWeWork>
             <OurServices></OurServices>
+            <Faq></Faq>
+            <CustomerFeedback></CustomerFeedback>
         </div>
     );
 };
