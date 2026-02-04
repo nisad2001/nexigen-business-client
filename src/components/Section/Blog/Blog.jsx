@@ -24,7 +24,7 @@ const Blog = () => {
               </h4>
               <div className='flex text-center items-center '>
                 <img
-                src="/public/assets/images/timer.png"
+                src="/assets/images/timer.png"
                 alt="Timer Icon"
                 className="w-[18px] h-[18px]"
                 />
