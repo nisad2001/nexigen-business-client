@@ -47,7 +47,7 @@ const Navbar = () => {
             
             <div className="flex items-center">
             
-              <img className="mr-2 w-[26px] h-[26px]" src="/assets/images/navimg.png" alt="" />
+              <img className="mr-2 w-[26px] h-[26px]" src="/assets/images/navlogo.png" alt="" />
               <a className="text-[#EFECFF] text- lg:text-xl mr-16">Nexigen</a>
             </div>
             <div className="navbar-center text-[#A6A6A8] hidden lg:flex">

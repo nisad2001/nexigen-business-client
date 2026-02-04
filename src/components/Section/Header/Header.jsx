@@ -18,7 +18,7 @@ const Header = () => {
           <div className="hidden md:block w-[1px] h-6 bg-white rotate-[-38deg] mx-3"></div>
 
           <div className="flex items-center gap-2">
-            <img className="h-[14px] w-[14px]" src="/assets/images/navtimer.png" alt="" />
+            <img className="h-[14px] w-[14px]" src="/assets/images/timer.png" alt="" />
             <p>Mon - Fri : 09:30 am - 06:30 pm</p>
           </div>
         </div>
