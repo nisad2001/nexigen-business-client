@@ -9,17 +9,17 @@ const Banner = () => {
         <img
           src="/assets/images/hero.png"
           alt="Hero"
-          className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg rounded-lg shadow-2xl object-contain"
+          className="w-full  sm:max-w-sm md:max-w-md lg:max-w-[472]  shadow-2xl object-contain"
           style={{ height: 'auto' }}
         />
 
         {/* Text content */}
         <div className="flex flex-col">
-          <p className="text-[#FFFFFF] w-fit font-normal py-2 px-5 mb-4 bg-[#3C345F] rounded mt-4 sm:mt-0">
+          <p className="text-[#FFFFFF] w-fit font-normal py-2 px-5 mb-4 bg-[#3C345F] rounded mt-4 sm:mt-0 ">
             Welcome to NexiGen
           </p>
 
-          <h1 className="font-semibold text-3xl md:text-4xl lg:text-[64px] text-[#EFECFF] mb-4 leading-tight max-w-full lg:max-w-[579px]">
+          <h1 className="font-semibold  md:text-4xl lg:text-[64px] text-[#EFECFF] mb-4 leading-tight max-w-full lg:max-w-[579px]">
             Solutions for every organization
           </h1>
 

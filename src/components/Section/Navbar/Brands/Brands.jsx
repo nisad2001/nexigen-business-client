@@ -9,6 +9,11 @@ const brandsLogos = [
   '/assets/images/hub.png',
   '/assets/images/stripe.png',
   '/assets/images/slack.png',
+  '/assets/images/amazon.png',
+  '/assets/images/bitcoin.png',
+  '/assets/images/hub.png',
+  '/assets/images/stripe.png',
+  '/assets/images/slack.png',
 ];
 
 const Brands = () => {
@@ -16,7 +21,7 @@ const Brands = () => {
     <div className="h-[140px] py-[52px] max-w-[1169px] w-full mx-auto px-4 lg:px-0">
       <Swiper
         loop={true}
-        slidesPerView={2}
+        slidesPerView={5}
         centeredSlides={true}
         spaceBetween={30}
         grabCursor={true}
