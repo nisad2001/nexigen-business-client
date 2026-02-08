@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router';
-import Header from '../../../components/Section/Header/Header';
+import Header from '../HeaderTop/HeaderTop';
 import Banner from '../../../components/Section/Banner/Banner';
 import Brands from './Brands/Brands';
 

@@ -5,10 +5,10 @@ const OurServices = () => {
     <div className="max-w-[1170px] py-25 mx-auto px-4">
       {/* heading */}
       <div className="mb-12">
-        <p className="font-medium text-[16px] text-[#D37302] uppercase">
+        <p className="font-medium text-center md:text-left text-[16px] text-[#D37302] uppercase">
           Our Services
         </p>
-        <h2 className="font-semibold text-[#0D083A] text-[32px] md:text-[48px]">
+        <h2 className="font-semibold text-center md:text-left text-[#0D083A] text-[32px] md:text-[48px]">
           Consulting Services
         </h2>
       </div>
@@ -38,7 +38,7 @@ const OurServices = () => {
             <p className="text-sm md:text-base">
               We provide the best services to ensure the high-level success of your business
             </p>
-            <div className="w-full text-left">
+            <div className="w-full text-center md:text-left">
               <button className="text-[#6140FF] underline">Know More</button>
             </div>
           </div>
@@ -64,7 +64,7 @@ const OurServices = () => {
             <p className="text-sm md:text-base">
               Our services are tailored to guarantee your business of success
             </p>
-            <div className="w-full text-left">
+            <div className="w-full text-center md:text-left">
               <button className="text-[#6140FF] underline">Know More</button>
             </div>
           </div>
@@ -90,7 +90,7 @@ const OurServices = () => {
             <p className="text-sm md:text-base">
               With our exceptional services, your business can reach success
             </p>
-            <div className="w-full text-left">
+            <div className="w-full text-center md:text-left ">
               <button className="text-[#6140FF] underline">Know More</button>
             </div>
           </div>

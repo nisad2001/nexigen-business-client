@@ -9,21 +9,21 @@ const Banner = () => {
         <img
           src="/assets/images/hero.png"
           alt="Hero"
-          className="w-full  sm:max-w-sm md:max-w-md lg:max-w-[472]  shadow-2xl object-contain"
+          className="w-full sm:max-w-sm md:max-w-md lg:max-w-[472px] shadow-2xl object-contain"
           style={{ height: 'auto' }}
         />
 
         {/* Text content */}
         <div className="flex flex-col">
-          <p className="text-[#FFFFFF] w-fit font-normal py-2 px-5 mb-4 bg-[#3C345F] rounded mt-4 sm:mt-0 ">
-            Welcome to NexiGen
-          </p>
+          <p className="text-[#FFFFFF] w-full font-normal py-2 px-5 mb-4 bg-[#3C345F] rounded mt-4 sm:mt-0 text-center sm:text-left">
+          Welcome to NexiGen
+        </p>
 
-          <h1 className="font-semibold  md:text-4xl lg:text-[64px] text-[#EFECFF] mb-4 leading-tight max-w-full lg:max-w-[579px]">
+          <h1 className="font-semibold md:text-4xl lg:text-[64px] text-[#EFECFF] mb-4 leading-tight max-w-full lg:max-w-[579px] text-center sm:text-left">
             Solutions for every organization
           </h1>
 
-          <p className="pt-4 md:py-6 font-normal text-sm md:text-base text-[#FFFFFF] max-w-full lg:max-w-[564px]">
+          <p className="pt-4 md:py-6 font-normal text-sm md:text-base text-[#FFFFFF] max-w-full lg:max-w-[564px] text-center sm:text-left">
             If your company is facing financial challenges, struggling with operations,
             or looking to expand, we can help identify the root cause of the problem and
             develop a strategic plan to address it.
