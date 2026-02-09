@@ -27,11 +27,10 @@ const HeaderTop = () => {
         </div>
 
         {/* Right side */}
-        <div className="flex flex-row flex-wrap md:flex-row md:items-center gap-4 justify-center md:justify-start
-                        text-gray-400 md:text-gray-300">
-          <div className="flex items-center gap-2 justify-center min-w-[200px]">
-            <img className="h-[14px] w-[14px]" src="/assets/images/navmessage.png" alt="" />
-            <p className="break-words">nexigen@gmail.com</p>
+        <div className="flex flex-row flex-wrap md:flex-row md:items-center gap-4 justify-center md:justify-start text-gray-400 md:text-gray-300">
+          <div className="flex items-center   min-w-[155px]">
+            <img className="h-[14px] w-[14px] mr-2" src="/assets/images/navmessage.png" alt="" />
+            <p className="text-[14px] font-normal mr-[37px]">nexigen@gmail.com</p>
           </div>
             <div className="h-8 gap-[35px] border-l-2 border-gray-400"></div>
 

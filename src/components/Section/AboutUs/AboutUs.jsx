@@ -24,14 +24,14 @@ const AboutUs = () => {
         </div>
 
         {/* Experience Box */}
-        <div className="bg-[#D37302] text-center flex flex-col items-center gap-2 py-6 px-4 mt-8
+        <div className="bg-[#D37302] w-[210px] h-[210px] text-center flex flex-col items-center gap-2 py-6 px-4 mt-8
           sm:absolute sm:left-[263px] sm:top-[378px]
           sm:w-[210px] sm:h-[210px]
           w-full max-w-[210px] mx-auto rounded-lg">
-          <span className="font-bold text-[40px] sm:text-[58px] text-white">
+          <span className="font-bold text-[58px]  sm:text-[58px] text-white">
             25+
           </span>
-          <span className="font-bold text-[14px] text-white text-center">
+          <span className="font-bold text-[16px] text-white text-center">
             Years Experience <br /> our company
           </span>
         </div>
@@ -55,21 +55,21 @@ const AboutUs = () => {
         <div className="mt-6 space-y-6">
           <div className="flex gap-x-2 justify-center lg:justify-start">
             <img src="/assets/images/tickmard.png" className="w-6 h-6" alt="" />
-            <p className="text-[16px] text-[#0D083A]">
+            <p className="text-[16px] font-norma text-[#0D083A]">
               Performing market research
             </p>
           </div>
 
           <div className="flex gap-x-2 justify-center lg:justify-start">
             <img src="/assets/images/tickmard.png" className="w-6 h-6" alt="" />
-            <p className="text-[16px] text-[#0D083A]">
+            <p className="text-[16px] font-norma text-[#0D083A]">
               Providing information to a client
             </p>
           </div>
 
           <div className="flex gap-x-2 justify-center lg:justify-start">
             <img src="/assets/images/tickmard.png" className="w-6 h-6" alt="" />
-            <p className="text-[16px] text-[#0D083A]">
+            <p className="text-[16px] font-norma text-[#0D083A]">
               Strategic planning
             </p>
           </div>
@@ -99,7 +99,7 @@ const AboutUs = () => {
           </div>
 
           <div className="ml-6">
-            <h1 className="text-2xl font-bold">1.289</h1>
+            <h1 className="text-[24px] font-bold">1.289</h1>
             <h3 className="text-[#7A798B] text-[16px] font-medium">
               Our Expert Team
             </h3>

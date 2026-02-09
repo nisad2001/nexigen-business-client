@@ -18,12 +18,12 @@ const Navbar = () => {
   );
 
   return (
-    <div className="bg-[#100D2C] overflow-x-hidden">
+    <div className="bg-[#100D2C]  overflow-x-hidden">
 
       <Header />
 
       {/* NAVBAR */}
-      <div className="w-full max-w-[1169px] mx-auto px-4">
+      <div className="w-full max-w-[1169px] mb-19 mx-auto px-4">
 
         <div className="flex items-center justify-between py-5">
 
